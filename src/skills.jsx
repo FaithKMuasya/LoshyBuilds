@@ -6,22 +6,22 @@ const skillData = [
     category: "Frontend",
     description: "Building responsive and interactive user interfaces with modern frontend tools and frameworks.",
     stacks: [
-      "React", "JavaScript", "TypeScript", "HTML5", "CSS3",
-      "Tailwind CSS", "Next.js", "Responsive Design"
+      "React", "JavaScript", "HTML5", "CSS3",
+      "Tailwind CSS", "Responsive Design"
     ],
   },
   {
     category: "Backend",
     description: "Creating secure and scalable server-side logic and APIs for web applications.",
     stacks: [
-      "Node.js", "Express", "RESTful APIs", "JSON", "Authentication", "Database Design","Python","Flask","Laravel"
+      "Node.js", "RESTful APIs", "JSON", "Authentication", "Database Design","Python","Flask","Laravel"
     ],
   },
   {
     category: "Database",
     description: "Storing and managing data with structured and NoSQL database systems.",
     stacks: [
-      "MongoDB", "MySQL", "Firebase", "Supabase", "Data Modeling"
+       "MySQL", "Firebase", "Supabase", "Data Modeling"
     ],
   },
   {
@@ -34,7 +34,7 @@ const skillData = [
 ];
 
 const learning = [
-  "AWS", "Docker", "GraphQL", "Testing (Jest)", "Redux", "Python", "React Native"
+  "AWS", "Docker", "GraphQL", "Testing (Jest)", "Redux", "Laravel"
 ];
 
 const Skills = () => {
