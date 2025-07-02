@@ -4,17 +4,25 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: #ffffff; 
+  background-color: #ffffff;
   border-bottom: 1px solid #e0e0e0;
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 
-/* Left logo section */
-.logo-section {
+/* Logo and title grouped */
+.logo-container {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
+}
+
+/* Right side container for hamburger + links */
+.nav-toggle {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 /* Logo image */
@@ -24,15 +32,21 @@ nav {
   object-fit: contain;
 }
 
-/* Text next to logo */
+/* Logo text */
 .logo-text {
   font-size: 24px;
   font-weight: bold;
-  color: #1E293B; 
+  color: #1E293B;
 }
 
-/* Nav links list */
-nav ul {
+/* Hamburger icon */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+/* Desktop nav links */
+.nav-links {
   display: flex;
   list-style: none;
   gap: 30px;
@@ -40,16 +54,46 @@ nav ul {
   padding: 0;
 }
 
-/* Each link */
-nav ul li a {
+.nav-links li a {
   text-decoration: none;
-  color: #1E293B; 
+  color: #1E293B;
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
-/* Hover effect */
-nav ul li a:hover {
-  color: #2563eb; 
+.nav-links li a:hover {
+  color: #2563eb;
 }
 
+/* Mobile styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links-mobile {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    gap: 20px;
+  }
+
+  .nav-links-mobile li a {
+    text-decoration: none;
+    color: #1E293B;
+    font-weight: 500;
+    padding: 10px 0;
+    border-top: 1px solid #e0e0e0;
+  }
+
+  .nav-links-mobile li a:hover {
+    color: #2563eb;
+  }
+}
