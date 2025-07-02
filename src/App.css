@@ -1,0 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+body, html, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#root > * {
+  flex-shrink: 0;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Dark mode root */
+body.dark {
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+/* Navbar */
+body.dark nav {
+  background-color: #1e293b;
+}
+
+body.dark nav a {
+  color: #f1f5f9;
+}
+
+/* Footer */
+body.dark footer {
+  background-color: #1e293b;
+  color: #f1f5f9;
+}
+
+/* Project cards or section blocks */
+body.dark .project-card,
+body.dark .section {
+  background-color: #1e293b;
+  color: #f1f5f9;
+}
+
+/* Optional: border or buttons */
+body.dark .btn-outline {
+  border-color: #94a3b8;
+  color: #f1f5f9;
+}
+

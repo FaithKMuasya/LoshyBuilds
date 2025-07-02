@@ -1,0 +1,123 @@
+.skills-section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: #475569;
+  margin-bottom: 50px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.skill-card {
+  text-align: left;
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 25px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  transition: transform 0.3s ease;
+  border: 1px solid #e2e8f0;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-card h3 {
+  font-size: 1.25rem;
+  color: #1e293b;
+  margin-bottom: 8px;
+}
+
+.skill-card p {
+  font-size: 0.95rem;
+  color: #475569;
+  margin-bottom: 15px;
+}
+
+.stack-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.stack-list.center {
+  justify-content: center;
+}
+
+/* Stack Pill Style */
+.stack-pill {
+  background-color: #f1f5f9;
+  color: #1e293b;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: 1px solid #cbd5e1;
+}
+
+/* Currently Learning Section */
+.currently-learning {
+  background-color: #F3F6FA;
+  padding: 25px 20px;
+  border-radius: 12px;
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.currently-learning h4 {
+  font-size: 1.1rem;
+  color: #1e293b;
+  margin-bottom: 15px;
+}
+
+.currently-learning .stack-list {
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.currently-learning .stack-pill {
+  background-color: #1e293b;
+  color: #ffffff;
+  border: none;
+}
+
+.learning-note {
+  font-size: 0.95rem;
+  color: #334155;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stack-list.center {
+    justify-content: flex-start;
+  }
+
+  .tools-card {
+    padding: 25px 15px;
+  }
+}

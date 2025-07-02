@@ -1,0 +1,55 @@
+/* Navbar container */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff; 
+  border-bottom: 1px solid #e0e0e0;
+  position: sticky;
+  top: 0;
+}
+
+/* Left logo section */
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Logo image */
+.logo-image {
+  width: 50px;
+  height: 40px;
+  object-fit: contain;
+}
+
+/* Text next to logo */
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1E293B; 
+}
+
+/* Nav links list */
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Each link */
+nav ul li a {
+  text-decoration: none;
+  color: #1E293B; 
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+  color: #2563eb; 
+}
+

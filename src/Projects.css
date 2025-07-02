@@ -1,0 +1,155 @@
+/* Portfolio Section */
+.portfolio-section {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.portfolio-section p {
+  margin-top: -2%;
+  margin-bottom: 40px;
+  color: #334155;
+}
+
+.portfolio-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #1e293b;
+}
+
+/* Grid Layout */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Project Card */
+.project-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 22px 20px;
+  transition: 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Header (Title + Status) */
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.project-title {
+  font-size: 1.6rem;
+  color: #1e293b;
+  margin: 0;
+}
+
+.status-badge {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Badge Colors */
+.status-badge.deployed {
+  background-color: #9fd0a0;
+}
+.status-badge.in-development {
+  background-color: rgb(98, 113, 174);
+}
+.status-badge.planning {
+  background-color: #f6c06f;
+}
+
+/* Description */
+.project-desc {
+  font-size: 0.95rem;
+  margin: 0 0 12px;
+  color: #475569;
+  line-height: 1.5;
+  text-indent: 0;
+}
+
+/* Stack Pills */
+.stack-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+
+.stack-pill {
+  background-color: #f1f5f9;
+  color: #1e293b;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: 1px solid #cbd5e1;
+}
+
+/* Buttons */
+.project-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 0;
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border: 1px solid #cbd5e1;
+  background: transparent;
+  color: #1e293b;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-outline:hover {
+  border-color: #64748b;
+  color: #000;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+}
+.github-footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.github-footer p {
+  margin-bottom: 10px;
+  color: #475569;
+  font-size: 1.3rem;
+}
+.github-footer #git-btn {
+      background-color: #1E293B;
+      padding: 10px;
+      color: #ffffff;
+}

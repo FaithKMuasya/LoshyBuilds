@@ -1,0 +1,170 @@
+/* Section container */
+.contact-section {
+  padding: 60px 20px;
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: #475569;
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: 700px;
+  margin-inline: auto;
+}
+
+/* Layout wrapper */
+.contact-content {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Left side info */
+.contact-left {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.contact-left h3 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+}
+
+.contact-left p {
+  color: #475569;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.95rem;
+  color: #334155;
+}
+
+.info-icon {
+  color: #1e293b;
+  font-size: 1.2rem;
+}
+
+/* Availability card */
+.availability-card {
+  background-color: #fff;
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.availability-card h4 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.availability-card ul {
+  padding-left: 20px;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+/* Right side form */
+.contact-right {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid #cbd5e1;
+}
+
+.contact-form h3 {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+.contact-form p {
+  color: #64748b;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+/* Grouped fields */
+.form-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.form-row input {
+  flex: 1;
+  min-width: 140px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #0f172a;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #1e293b;
+}
+
+/* Send button */
+.send-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: #1e293b;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-btn:hover {
+  background-color: #0f172a;
+}
+
+.full-width {
+  width: 100%;
+}
