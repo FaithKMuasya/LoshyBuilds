@@ -4,6 +4,8 @@ html {
 body, html, #root {
   height: 100%;
   margin: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
