@@ -10,6 +10,25 @@ const projects = [
     status: "Deployed",
     stacks: ["HTML", "CSS", "JavaScript"],
   },
+
+  {
+    title: "Sunflower Sunrays Care Home",
+    description: "A responsive React website built for a healthcare client. Features include smooth scrolling navigation, clean UI, reusable components, and deployment via Vercel with a custom domain. ",
+    demo: "https://www.sunflowersunrays.com/",
+    code: "https://github.com/FaithKMuasya/Private-Care-Home",
+    status: "Deployed",
+    stacks: ["React", "CSS", "Emailjs"],
+  },
+
+  {
+    title: "Healjunction Homepage",
+    description: "Developed a clean, responsive homepage for a healthcare platform as part of an interview assignment. Focused on layout, accessibility, and mobile-first design using React and Tailwind CSS. ",
+    demo: "https://heal-junction-homepage.vercel.app/",
+    code: "https://github.com/FaithKMuasya/HealJunction-Homepage",
+    status: "Deployed",
+    stacks: ["React", "Tailwind CSS"],
+  },
+
   {
     title: "Pharmacy System",
     description: "Stock and sales management system with MPESA integration.",
