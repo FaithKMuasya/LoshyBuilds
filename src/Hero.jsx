@@ -8,7 +8,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaArrowDown } from "react-icons/fa";
 function Hero() {
   return (
     <section id="home">
-      <h2>Junior Developer</h2>
+      <h2>Software Developer</h2>
       <h3>Building Modern Web Solutions</h3>
       <p>
         Passionate about creating clean, efficient code and meaningful digital experiences
