@@ -34,7 +34,7 @@ function Hero() {
         </a>
       </div>
 
-      {/* Downward arrow (will animate later) */}
+      {/* Downward arrow */}
     <div>
         <a href="#about" className="scroll-arrow">
         <FaArrowDown size={25} />
