@@ -19,7 +19,7 @@ const projects = [
   demo: "https://m4m.co.ke",
   code: "",
   status: "Deployed",
-  stacks: ["JavaScript", "Safaricom Daraja API"],
+  stacks: ["React", "Bootstrap", "Safaricom Daraja API"],
 },
 
 {
