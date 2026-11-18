@@ -2,6 +2,44 @@ import React from "react";
 import "./Projects.css";
 
 const projects = [
+
+
+  // {
+  //   title: "Sunflower Sunrays Care Home",
+  //   description: "A responsive React website built for a healthcare client. Features include smooth scrolling navigation, clean UI, reusable components, and deployment via Vercel with a custom domain. ",
+  //   demo: "https://www.sunflowersunrays.com/",
+  //   code: "https://github.com/FaithKMuasya/Private-Care-Home",
+  //   status: "Deployed",
+  //   stacks: ["React", "CSS", "Emailjs"],
+  // },
+
+{
+  title: "M4M – Mwalimu 4 Mwalimu Welfare",
+  description: "A digital welfare management platform serving teachers in Nyandarua County, featuring member accounts, welfare contribution tracking, professional development opportunities, teacher networking, and support services. Integrated Safaricom M-Pesa payments.",
+  demo: "https://m4m.co.ke",
+  code: "",
+  status: "Deployed",
+  stacks: ["JavaScript", "Safaricom Daraja API"],
+},
+
+{
+  title: "Natetewa Website",
+  description: "A digital welfare management platform serving teachers in Nakuru County, featuring member accounts, welfare contribution tracking, professional development opportunities, teacher networking, and support services. Integrated Safaricom M-Pesa payments.",
+  demo: "https://natetewa.co.ke",
+  code: "",
+  status: "Deployed",
+  stacks: ["JavaScript", "PHP", "MySQL", "Safaricom Daraja API"],
+},
+
+{
+  title: "Clearcom Website",
+  description: "A responsive business website developed to showcase company services, provide information, and make it easy for customers to get in touch.",
+  demo: "https://clearcom.co.ke",
+  code: "",
+  status: "Deployed",
+  stacks: ["Next.js", "React", "Tailwind CSS"],
+},
+
   {
     title: "E-Commerce Platform",
     description: "A responsive e-commerce website with product listings, a functional shopping cart, and a checkout page. ",
@@ -11,67 +49,33 @@ const projects = [
     stacks: ["HTML", "CSS", "JavaScript"],
   },
 
-  {
-    title: "Sunflower Sunrays Care Home",
-    description: "A responsive React website built for a healthcare client. Features include smooth scrolling navigation, clean UI, reusable components, and deployment via Vercel with a custom domain. ",
-    demo: "https://www.sunflowersunrays.com/",
-    code: "https://github.com/FaithKMuasya/Private-Care-Home",
-    status: "Deployed",
-    stacks: ["React", "CSS", "Emailjs"],
-  },
 
-  {
-    title: "Healjunction Homepage",
-    description: "Developed a clean, responsive homepage for a healthcare platform as part of an interview assignment. Focused on layout, accessibility, and mobile-first design using React and Tailwind CSS. ",
-    demo: "https://heal-junction-homepage.vercel.app/",
-    code: "https://github.com/FaithKMuasya/HealJunction-Homepage",
-    status: "Deployed",
-    stacks: ["React", "Tailwind CSS"],
-  },
+  // {
+  //   title: "Tech Blog",
+  //   description: "A responsive tech blog built with React and Vite, supporting dark mode & light mode and developer-focused content.",
+  //   demo: "https://faith-tech-blog.vercel.app/",
+  //   code: "https://github.com/FaithKMuasya/My-Tech-Blog",
+  //   status: "Deployed",
+  //   stacks: ["React", "Vite", "CSS"],
+  // },
 
-  {
-    title: "Pharmacy System",
-    description: "Stock and sales management system with MPESA integration.",
-    demo: "https://your-pharmacy-demo.com",
-    code: "https://github.com/yourusername/pharmacy-system",
-    status: "planning",
-    stacks: ["PHP", "MySQL", "XAMPP"],
-  },
+  //   {
+  //   title: "Advanced Calculator",
+  //   description: "Scientific calculator with history, memory functions, and multiple calculation modes.",
+  //   demo: "https://faith-calculator-app.vercel.app/",
+  //   code: "https://github.com/FaithKMuasya/Calculator-App",
+  //   status: "Deployed",
+  //   stacks: ["HTML", "CSS", "Javascript"],
+  // },
 
-  {
-    title: "HRMS System",
-    description: "A hospital management system for storing and managing patient records,clinical details and hospital operations efficiently.",
-    demo: "",
-    code: "",
-    status: "In Development",
-    stacks: ["React", "Python", "Flask", "Progresql"],
-  },
-  {
-    title: "Tech Blog",
-    description: "A responsive tech blog built with React and Vite, supporting dark mode & light mode and developer-focused content.",
-    demo: "https://faith-tech-blog.vercel.app/",
-    code: "https://github.com/FaithKMuasya/My-Tech-Blog",
-    status: "Deployed",
-    stacks: ["React", "Vite", "CSS"],
-  },
-
-    {
-    title: "Advanced Calculator",
-    description: "Scientific calculator with history, memory functions, and multiple calculation modes.",
-    demo: "https://faith-calculator-app.vercel.app/",
-    code: "https://github.com/FaithKMuasya/Calculator-App",
-    status: "Deployed",
-    stacks: ["HTML", "CSS", "Javascript"],
-  },
-
-  {
-    title: "Zoo App",
-    description: "A simple animal zoo showcase app with interactive animal profiles and images, built using only HTML.",
-    demo: "",
-    code: "https://github.com/FaithKMuasya/PineCityZoo-App",
-    status: "In Development",
-    stacks: ["HTML"],
-  },
+  // {
+  //   title: "Zoo App",
+  //   description: "A simple animal zoo showcase app with interactive animal profiles and images, built using only HTML.",
+  //   demo: "",
+  //   code: "https://github.com/FaithKMuasya/PineCityZoo-App",
+  //   status: "In Development",
+  //   stacks: ["HTML"],
+  // },
 
 ];
 

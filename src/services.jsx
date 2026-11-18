@@ -55,7 +55,8 @@ const Services = () => {
       <div className="why-choose-card">
         <h3>Why Choose Me?</h3>
         <p>
-          As a junior developer, I offer competitive rates while delivering quality work.
+          As a software
+           developer, I offer competitive rates while delivering quality work.
           I'm dedicated to your project's success and bring fresh perspectives to every challenge.
         </p>
         <div className="features">
